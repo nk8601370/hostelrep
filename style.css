@@ -1,0 +1,96 @@
+.zero
+{
+	
+	height: 200px;
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+.one
+{
+	height: 200px;
+	width: 420px;
+	margin-right: auto;
+	margin-left: 200px;
+	background-color: rgb(235,235,230);
+	float: left;
+	border: 1px solid black;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+}
+#head
+{
+	margin-top: 10px;
+	text-shadow: 2px 2px rgb(250,160,160);
+}
+.imm
+{
+	height: 163px;
+	width: 180px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+.imm:hover
+{
+    animation-name: image;
+	animation-duration: 1s;
+}
+.two
+{
+	height: 200px;
+	width: 210px;
+	float: left;
+	background-color: rgb(235,235,230);
+	border: 1px solid black;
+}
+.three
+{
+	height: 200px;
+	width: 210px;
+	float: left;
+	background-color: rgb(235,235,230);
+	border: 1px solid black;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.but
+{   
+	margin-top: 30px;
+	width: 130px;
+	margin-left: 40px;
+	height: 40px;
+	background-color: green;
+	text-decoration: none;
+	color: white;
+}
+.but:hover{background-color: lightgreen;}
+@keyframes example {
+    from {background-color: rgb(180,180,180); }
+    to {background-color: rgb(205,202,150);}
+}
+@keyframes image
+{   from{height: 163px;
+	width: 180px;
+    opacity: 0; }
+    to{width: 182px;
+    height: 157px;
+    opacity: 0.7;}
+
+
+
+.pagination {
+    display: inline-block;
+    margin-left: 450px;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+a{color: white;}
